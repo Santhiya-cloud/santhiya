@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form>
+        
+        <div class="container">
+            <h3>New Employee</h3>
+            <div class="row">
+                <div class="col">
+                    <label for="fname">Frist Name</label>
+                    <input type="text" class="form-control" id="fname">
+                </div>
+                <div class="col">
+                    <label for="mname">Middle Name</label>
+                    <input type="text" class="form-control" id="mname">
+                </div>
+                <div class="col">
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="form-control" id="lname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="add1">Address Line 1</label>
+                    <input type="text" class="form-control" id="add1">
+                </div>
+                <div class="col">
+                    <label for="add2">Address Line 2</label>
+                    <input type="text" class="form-control" id="add2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="iemail">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="col">
+                    <label for="pass">Password</label>
+                    <input type="password" class="form-control" id="Pass">
+                </div>
+                <div class="col">
+                    <label for="cpass">Confirm Password</label>
+                    <input type="password" class="form-control" id="cPass">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="dept">Department</label>
+                    <select class="custom-select">
+                        <option selected>Open this select menu</option>
+                        <option value="Research and development">Research and development</option>
+                        <option value="Sales and Marketing">Sales and Marketing</option>
+                        <option value="Technical Publications and Training">Technical Publications and Training</option>
+                        <option value="Quality Assurance">Quality Assurance</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="pass">Date Of Birth</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <div class="col">
+                    <div>  <label for="pass">Gender</label></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <label for="pass">Permanent</label>
+                    <div class="form-check">
+                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                    </div>
+                </div>
+
+            </div>
+            <button type="submit" class="btn btn-success">Save</button>
+        </div>
+        
+    </form>
+</body>
+
+</html>
